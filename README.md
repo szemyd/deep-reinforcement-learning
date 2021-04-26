@@ -27,9 +27,13 @@ There are three environments that agents were developed on. Each increase in lev
 
 ### Banana Environment
 In this challenge a single agent has to collect yellow bananas, while avoiding purple ones.
+
 [More information in this folder](https://github.com/szemyd/deep-reinforcement-learning/tree/main/DQN%20Agent%20-%20Navigation%20Environment) 
+ 
  </br>
+
 ![Environment Screenshot](banana_screenshot.png)
+
 </br>
 
 
@@ -64,7 +68,7 @@ This repo contains implementation of two DQN Agents in __PyTorch__:
 - an Agent built on top of the base Agent, which utilizes __Prioritized Replay__.
 
 <br/>
-<br/>
+
 
 ### Deep Deterministic Policy Gradient
 This repo contains implementation of a DDPG Agent in __PyTorch__.
@@ -72,6 +76,7 @@ This repo contains implementation of a DDPG Agent in __PyTorch__.
 The DDPG architecture is considered by many to be an Actor-Critic method. In the learning step the agent selects a next step to calculate the Temporal Difference (which isbiased in regards of the actual value) with a Policy network (which has large variance in regards of the actual value). This way both bias and variance is decreased.
 
 The DDPG agent was able to solve the environment under 250episodes. 
+
 <br/>
 
 
