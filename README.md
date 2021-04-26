@@ -22,7 +22,7 @@ Detailed Readmes can be found in each project folder.
 <br/>
 
 # Environments
----
+
 There are three environments that agents were developed on. Each increase in level of difficulty, from discrete action space, to continous actions and finally to multi-agent problems.
 
 ### Banana Environment
@@ -48,12 +48,14 @@ In this challenge a single agent has to maintain it's end effector on a moving t
 
 In this environment two agents play tennis. Each agent receives positive rewards for hitting the ball over the net, and a smaller negative reward if the ball falls on their side.
 
-[More information in this folder](https://github.com/szemyd/deep-reinforcement-learning/tree/main/DDPG%20Agent%20-%20Continous%20Multi-Agent%20Environment) 
+[More information in this folder](https://github.com/szemyd/deep-reinforcement-learning/tree/main/DDPG%20Agent%20-%20Continous%20Multi-Agent%20Environment)
+
 </br>
+
 ![Trained Agent][image2]
 
 # Agents
----
+
 
 ### Deep Q-Learning Agent
 
@@ -71,7 +73,7 @@ The DDPG architecture is considered by many to be an Actor-Critic method. In the
 
 The DDPG agent was able to solve the environment under 250episodes. 
 <br/>
-<br/>
+
 
 ### Multi-Agent Deep Deterministic Policy Gradient
 The DDPG Agent has been extended to support multi-agent environments.
@@ -81,8 +83,8 @@ The DDPG agent was able to solve the environment under 2000episodesand reached a
 <br/>
 
 # References
----
+
 
 Environment and Agents were both based on starter codes from the Udacity Deep Reinforcement Learning Nanodegree. [Github repo can be found here](https://github.com/udacity/deep-reinforcement-learning).
 
-Special thanks to Miguel Morales (@mimoralea), for writing such a comprehensive book on Deep Reinforcement Learning. I have taken many  clarifications on theory and practice when developing the agents, [his book can be found here](https://www.manning.com/books/grokking-deep-reinforcement-learning).
+Special thanks to [Miguel Morales](https://github.com/mimoralea), for writing such a comprehensive book on Deep Reinforcement Learning. I have taken many  clarifications on theory and practice when developing the agents, [his book can be found here](https://www.manning.com/books/grokking-deep-reinforcement-learning).
